@@ -11,10 +11,10 @@
   <ProviderName>OEP Dev Team</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
-  <DisplayName DefaultValue="Custom Function Perf"/>
-  <Description DefaultValue="Custom Function Perf"/>
+  <DisplayName DefaultValue="CustomFunction Perf"/>
+  <Description DefaultValue="CustomFunction Perf"/>
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/assets/icon-80.png"/>
+  <IconUrl DefaultValue="https://ylu0826.github.io/CustomFunction/assets/icon-80.png"/>
 
   <SupportUrl DefaultValue="http://www.contoso.com"/>
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -31,7 +31,7 @@
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/customfunctionsPerfDriver.html" />
+    <SourceLocation DefaultValue="https://ylu0826.github.io/CustomFunction/customfunctionsPerfDriver.html" />
   </DefaultSettings>
   <!-- End TaskPane Mode integration.  -->
 
@@ -127,11 +127,11 @@
     <!-- You can use resources across hosts and form factors. -->
    <Resources>
       <bt:Urls>
-        <bt:Url id="OEP.CustomFunctions.Script" DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/src/customfunctions.js" />
-        <bt:Url id="OEP.CustomFunctions.Page" DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/customfunctions.html" />
-        <bt:Url id="OEP.CustomFunctions.Json" DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/config/customfunctions.json" />
-        <bt:Url id="OEP.DesktopFunctionFile.Url" DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/src/customfunctionsPerfDriver.js" />
-        <bt:Url id="OEP.Taskpane.Url" DefaultValue="https://github.com/ylu0826/CustomFunctions/blob/master/customfunctionsPerfDriver.html" />
+        <bt:Url id="OEP.CustomFunctions.Script" DefaultValue="https://ylu0826.github.io/CustomFunction/src/customfunctions.js" />
+        <bt:Url id="OEP.CustomFunctions.Page" DefaultValue="https://ylu0826.github.io/CustomFunction/customfunctions.html" />
+        <bt:Url id="OEP.CustomFunctions.Json" DefaultValue="https://ylu0826.github.io/CustomFunction/config/customfunctions.json" />
+        <bt:Url id="OEP.DesktopFunctionFile.Url" DefaultValue="https://ylu0826.github.io/CustomFunction/src/customfunctionsPerfDriver.js" />
+        <bt:Url id="OEP.Taskpane.Url" DefaultValue="https://ylu0826.github.io/CustomFunction/customfunctionsPerfDriver.html" />
         <bt:Url id="OEP.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
