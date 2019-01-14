@@ -7,7 +7,7 @@
   <Id>363ca2c5-86c0-487e-9039-55f218049380</Id>
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>1.0.0.0</Version>
+  <Version>1.0.0.1</Version>
   <ProviderName>OEP Dev Team</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
@@ -19,7 +19,7 @@
   <SupportUrl DefaultValue="http://www.contoso.com"/>
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>https://github.com</AppDomain>
+    <AppDomain>https://ylu0826.github.io</AppDomain>
     <AppDomain>https://api.iextrading.com</AppDomain>
     <AppDomain>https://excelcf-demo-api.azurewebsites.net</AppDomain>
   </AppDomains>
@@ -126,6 +126,11 @@
     
     <!-- You can use resources across hosts and form factors. -->
    <Resources>
+      <bt:Images>
+        <bt:Image id="OEP.tpicon_16x16" DefaultValue="https://ylu0826.github.io/CustomFunction/image/Button16x16.png"/>
+        <bt:Image id="OEP.tpicon_32x32" DefaultValue="https://ylu0826.github.io/CustomFunction/image/Button32x32.png"/>
+        <bt:Image id="OEP.tpicon_80x80" DefaultValue="https://ylu0826.github.io/CustomFunction/image/Button80x80.png"/>
+      </bt:Images>
       <bt:Urls>
         <bt:Url id="OEP.CustomFunctions.Script" DefaultValue="https://ylu0826.github.io/CustomFunction/src/customfunctions.js" />
         <bt:Url id="OEP.CustomFunctions.Page" DefaultValue="https://ylu0826.github.io/CustomFunction/customfunctions.html" />
